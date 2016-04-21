@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04C77E9C1CC9798400DC3E8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C77E9B1CC9798400DC3E8E /* AppDelegate.swift */; };
+		04C77E9E1CC9798400DC3E8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C77E9D1CC9798400DC3E8E /* ViewController.swift */; };
+		04C77EA11CC9798400DC3E8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C77E9F1CC9798400DC3E8E /* Main.storyboard */; };
+		04C77EA31CC9798400DC3E8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C77EA21CC9798400DC3E8E /* Assets.xcassets */; };
+		04C77EA61CC9798400DC3E8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C77EA41CC9798400DC3E8E /* LaunchScreen.storyboard */; };
+		04C77EB11CC9798500DC3E8E /* GoodAsOldPhonesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C77EB01CC9798500DC3E8E /* GoodAsOldPhonesTests.swift */; };
+		04C77EBC1CC9798500DC3E8E /* GoodAsOldPhonesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C77EBB1CC9798500DC3E8E /* GoodAsOldPhonesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04C77EAD1CC9798500DC3E8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04C77E901CC9798400DC3E8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C77E971CC9798400DC3E8E;
+			remoteInfo = GoodAsOldPhones;
+		};
+		04C77EB81CC9798500DC3E8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04C77E901CC9798400DC3E8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C77E971CC9798400DC3E8E;
+			remoteInfo = GoodAsOldPhones;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04C77E981CC9798400DC3E8E /* GoodAsOldPhones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodAsOldPhones.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C77E9B1CC9798400DC3E8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04C77E9D1CC9798400DC3E8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04C77EA01CC9798400DC3E8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04C77EA21CC9798400DC3E8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04C77EA51CC9798400DC3E8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04C77EA71CC9798400DC3E8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C77EAC1CC9798500DC3E8E /* GoodAsOldPhonesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodAsOldPhonesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C77EB01CC9798500DC3E8E /* GoodAsOldPhonesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodAsOldPhonesTests.swift; sourceTree = "<group>"; };
+		04C77EB21CC9798500DC3E8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C77EB71CC9798500DC3E8E /* GoodAsOldPhonesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodAsOldPhonesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C77EBB1CC9798500DC3E8E /* GoodAsOldPhonesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodAsOldPhonesUITests.swift; sourceTree = "<group>"; };
+		04C77EBD1CC9798500DC3E8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04C77E951CC9798400DC3E8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C77EA91CC9798500DC3E8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C77EB41CC9798500DC3E8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04C77E8F1CC9798400DC3E8E = {
+			isa = PBXGroup;
+			children = (
+				04C77E9A1CC9798400DC3E8E /* GoodAsOldPhones */,
+				04C77EAF1CC9798500DC3E8E /* GoodAsOldPhonesTests */,
+				04C77EBA1CC9798500DC3E8E /* GoodAsOldPhonesUITests */,
+				04C77E991CC9798400DC3E8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04C77E991CC9798400DC3E8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04C77E981CC9798400DC3E8E /* GoodAsOldPhones.app */,
+				04C77EAC1CC9798500DC3E8E /* GoodAsOldPhonesTests.xctest */,
+				04C77EB71CC9798500DC3E8E /* GoodAsOldPhonesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04C77E9A1CC9798400DC3E8E /* GoodAsOldPhones */ = {
+			isa = PBXGroup;
+			children = (
+				04C77E9B1CC9798400DC3E8E /* AppDelegate.swift */,
+				04C77E9D1CC9798400DC3E8E /* ViewController.swift */,
+				04C77E9F1CC9798400DC3E8E /* Main.storyboard */,
+				04C77EA21CC9798400DC3E8E /* Assets.xcassets */,
+				04C77EA41CC9798400DC3E8E /* LaunchScreen.storyboard */,
+				04C77EA71CC9798400DC3E8E /* Info.plist */,
+			);
+			path = GoodAsOldPhones;
+			sourceTree = "<group>";
+		};
+		04C77EAF1CC9798500DC3E8E /* GoodAsOldPhonesTests */ = {
+			isa = PBXGroup;
+			children = (
+				04C77EB01CC9798500DC3E8E /* GoodAsOldPhonesTests.swift */,
+				04C77EB21CC9798500DC3E8E /* Info.plist */,
+			);
+			path = GoodAsOldPhonesTests;
+			sourceTree = "<group>";
+		};
+		04C77EBA1CC9798500DC3E8E /* GoodAsOldPhonesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04C77EBB1CC9798500DC3E8E /* GoodAsOldPhonesUITests.swift */,
+				04C77EBD1CC9798500DC3E8E /* Info.plist */,
+			);
+			path = GoodAsOldPhonesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04C77E971CC9798400DC3E8E /* GoodAsOldPhones */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C77EC01CC9798500DC3E8E /* Build configuration list for PBXNativeTarget "GoodAsOldPhones" */;
+			buildPhases = (
+				04C77E941CC9798400DC3E8E /* Sources */,
+				04C77E951CC9798400DC3E8E /* Frameworks */,
+				04C77E961CC9798400DC3E8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoodAsOldPhones;
+			productName = GoodAsOldPhones;
+			productReference = 04C77E981CC9798400DC3E8E /* GoodAsOldPhones.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04C77EAB1CC9798500DC3E8E /* GoodAsOldPhonesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C77EC31CC9798500DC3E8E /* Build configuration list for PBXNativeTarget "GoodAsOldPhonesTests" */;
+			buildPhases = (
+				04C77EA81CC9798500DC3E8E /* Sources */,
+				04C77EA91CC9798500DC3E8E /* Frameworks */,
+				04C77EAA1CC9798500DC3E8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04C77EAE1CC9798500DC3E8E /* PBXTargetDependency */,
+			);
+			name = GoodAsOldPhonesTests;
+			productName = GoodAsOldPhonesTests;
+			productReference = 04C77EAC1CC9798500DC3E8E /* GoodAsOldPhonesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04C77EB61CC9798500DC3E8E /* GoodAsOldPhonesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C77EC61CC9798500DC3E8E /* Build configuration list for PBXNativeTarget "GoodAsOldPhonesUITests" */;
+			buildPhases = (
+				04C77EB31CC9798500DC3E8E /* Sources */,
+				04C77EB41CC9798500DC3E8E /* Frameworks */,
+				04C77EB51CC9798500DC3E8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04C77EB91CC9798500DC3E8E /* PBXTargetDependency */,
+			);
+			name = GoodAsOldPhonesUITests;
+			productName = GoodAsOldPhonesUITests;
+			productReference = 04C77EB71CC9798500DC3E8E /* GoodAsOldPhonesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04C77E901CC9798400DC3E8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Francisco Gois";
+				TargetAttributes = {
+					04C77E971CC9798400DC3E8E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					04C77EAB1CC9798500DC3E8E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 04C77E971CC9798400DC3E8E;
+					};
+					04C77EB61CC9798500DC3E8E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 04C77E971CC9798400DC3E8E;
+					};
+				};
+			};
+			buildConfigurationList = 04C77E931CC9798400DC3E8E /* Build configuration list for PBXProject "GoodAsOldPhones" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04C77E8F1CC9798400DC3E8E;
+			productRefGroup = 04C77E991CC9798400DC3E8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04C77E971CC9798400DC3E8E /* GoodAsOldPhones */,
+				04C77EAB1CC9798500DC3E8E /* GoodAsOldPhonesTests */,
+				04C77EB61CC9798500DC3E8E /* GoodAsOldPhonesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04C77E961CC9798400DC3E8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C77EA61CC9798400DC3E8E /* LaunchScreen.storyboard in Resources */,
+				04C77EA31CC9798400DC3E8E /* Assets.xcassets in Resources */,
+				04C77EA11CC9798400DC3E8E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C77EAA1CC9798500DC3E8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C77EB51CC9798500DC3E8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04C77E941CC9798400DC3E8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C77E9E1CC9798400DC3E8E /* ViewController.swift in Sources */,
+				04C77E9C1CC9798400DC3E8E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C77EA81CC9798500DC3E8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C77EB11CC9798500DC3E8E /* GoodAsOldPhonesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C77EB31CC9798500DC3E8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C77EBC1CC9798500DC3E8E /* GoodAsOldPhonesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04C77EAE1CC9798500DC3E8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04C77E971CC9798400DC3E8E /* GoodAsOldPhones */;
+			targetProxy = 04C77EAD1CC9798500DC3E8E /* PBXContainerItemProxy */;
+		};
+		04C77EB91CC9798500DC3E8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04C77E971CC9798400DC3E8E /* GoodAsOldPhones */;
+			targetProxy = 04C77EB81CC9798500DC3E8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04C77E9F1CC9798400DC3E8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C77EA01CC9798400DC3E8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04C77EA41CC9798400DC3E8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C77EA51CC9798400DC3E8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04C77EBE1CC9798500DC3E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04C77EBF1CC9798500DC3E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04C77EC11CC9798500DC3E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoodAsOldPhones/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.naubergois.GoodAsOldPhones;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04C77EC21CC9798500DC3E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoodAsOldPhones/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.naubergois.GoodAsOldPhones;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04C77EC41CC9798500DC3E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoodAsOldPhonesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.naubergois.GoodAsOldPhonesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodAsOldPhones.app/GoodAsOldPhones";
+			};
+			name = Debug;
+		};
+		04C77EC51CC9798500DC3E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoodAsOldPhonesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.naubergois.GoodAsOldPhonesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodAsOldPhones.app/GoodAsOldPhones";
+			};
+			name = Release;
+		};
+		04C77EC71CC9798500DC3E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GoodAsOldPhonesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.naubergois.GoodAsOldPhonesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoodAsOldPhones;
+			};
+			name = Debug;
+		};
+		04C77EC81CC9798500DC3E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GoodAsOldPhonesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.naubergois.GoodAsOldPhonesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoodAsOldPhones;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04C77E931CC9798400DC3E8E /* Build configuration list for PBXProject "GoodAsOldPhones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C77EBE1CC9798500DC3E8E /* Debug */,
+				04C77EBF1CC9798500DC3E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C77EC01CC9798500DC3E8E /* Build configuration list for PBXNativeTarget "GoodAsOldPhones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C77EC11CC9798500DC3E8E /* Debug */,
+				04C77EC21CC9798500DC3E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04C77EC31CC9798500DC3E8E /* Build configuration list for PBXNativeTarget "GoodAsOldPhonesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C77EC41CC9798500DC3E8E /* Debug */,
+				04C77EC51CC9798500DC3E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04C77EC61CC9798500DC3E8E /* Build configuration list for PBXNativeTarget "GoodAsOldPhonesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C77EC71CC9798500DC3E8E /* Debug */,
+				04C77EC81CC9798500DC3E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04C77E901CC9798400DC3E8E /* Project object */;
+}
